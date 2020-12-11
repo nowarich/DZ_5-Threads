@@ -48,7 +48,7 @@ public class Main {
         t1.start();
         t2.start();
         while (t1.isAlive() || t2.isAlive()) {
-            //do nothing
+            //do nothing. Seems to be working fine
         }
         System.arraycopy(a1, 0, arr, 0, h);
         System.arraycopy(a2, 0, arr, h, h);
